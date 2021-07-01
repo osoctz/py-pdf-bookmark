@@ -48,10 +48,3 @@ def extract_image(txt_path, image_path):
     except TencentCloudSDKException as err:
         print(err)
 
-
-# if __name__ == '__main__':
-#     list_files = Utils.list_files("../output/images", [".png"])
-#
-#     for file in list_files:
-#         print(file)
-#         extract_image('../output/软件产品架构师手记2.txt', file)

@@ -28,6 +28,3 @@ def export_book_catalog(doc, start, end):
                 pix0.writePNG(output_dir + "p%s-%s.png" % (i + 1, j + 1))
                 pix0 = None
             pix = None
-
-# if __name__ == "__main__":
-#     export_book_catalog(doc=fitz.open('/Users/zantang/PycharmProjects/py-pdf-bookmark/input/软件产品架构师手记.pdf'),start=7,end=12)

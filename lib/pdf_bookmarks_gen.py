@@ -57,9 +57,3 @@ class PdfBookmarkGen(object):
 
         bookmarks = load_bookmarks_txt(txt_file_path, page_offset)
         self.add_bookmarks(bookmarks)
-
-
-# if __name__ == '__main__':
-#     pdf_handler = PdfBookmarkGen(u'/Users/zantang/PycharmProjects/py-pdf-bookmark/input/软件产品架构师手记.pdf')
-#     pdf_handler.gen_bookmark('/Users/zantang/PycharmProjects/py-pdf-bookmark/output/软件产品架构师手记.txt', page_offset=11)
-#     pdf_handler.save2file(u'软件产品架构师手记-目录书签版.pdf')
